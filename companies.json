@@ -1,0 +1,26 @@
+{
+    "companies" : [{
+        "industry": "fashion",
+        "foundingYear": 1997,
+        "employees": 120,
+        "endingYear": 2012
+    },
+    {
+        "industry": "banking",
+        "foundingYear": 2004,
+        "employees": 140,
+        "endingYear": 2007
+    },
+    {
+        "industry": "banking",
+        "foundingYear": 2003,
+        "employees": 135,
+        "endingYear": 2019
+    },
+    {
+        "industry": "TV",
+        "foundingYear": 1944,
+        "employees": 120,
+        "endingYear": 1985
+    }]
+}

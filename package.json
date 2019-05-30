@@ -1,0 +1,30 @@
+{
+  "name": "forlooppractice",
+  "version": "1.0.0",
+  "description": "Another classic kata.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit \"./{,!(node_modules)/**/}*.spec.js\"",
+    "lint": "eslint *.js",
+    "watch": "nodemon --exec 'npm run test' -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltsthlm/salt-spring19-kata-romanNumerals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltsthlm/salt-spring19-kata-romanNumerals/issues"
+  },
+  "homepage": "https://github.com/saltsthlm/salt-spring19-kata-romanNumerals#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "quokka": "0.0.7",
+    "node": "^12.3.1"
+  }
+}

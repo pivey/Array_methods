@@ -1,0 +1,73 @@
+{ 
+    "cars" : [{
+        "model": "ford",
+        "year": 1997,
+        "color": "blue",
+        "maxSpeed": 120,
+        "weight": 2200
+    },
+    {
+        "model": "alfa - romeo",
+        "year": 2004,
+        "color": "black",
+        "maxSpeed": 140,
+        "weight": 1460
+    },
+    {
+        "model": "golf",
+        "year": 2003,
+        "color": "black",
+        "maxSpeed": 135,
+        "weight": 1250
+    },
+    {
+        "model": "ford",
+        "year": 1944,
+        "color": "yellow",
+        "maxSpeed": 120,
+        "weight": 1600
+    },
+    {
+        "model": "volvo",
+        "year": 1983,
+        "color": "blue",
+        "maxSpeed": 140,
+        "weight": 1760
+    },
+    {
+        "model": "bmw",
+        "year": 2006,
+        "color": "orange",
+        "maxSpeed": 150,
+        "weight": 1500
+    },
+    {
+        "model": "mustang",
+        "year": 2001,
+        "color": "grey",
+        "maxSpeed": 180,
+        "weight": 1300
+    },
+    {
+        "model": "opal",
+        "year": 2005,
+        "color": "red",
+        "maxSpeed": 126,
+        "weight": 1650
+    },
+    {
+        "model": "alfa - romeo",
+        "year": 2004,
+        "color": "silver",
+        "maxSpeed": 110,
+        "weight": 1780
+    },
+    {
+        "model": "bmw",
+        "year": 2010,
+        "color": "black",
+        "maxSpeed": 130,
+        "weight": 2200
+    }]
+
+}
