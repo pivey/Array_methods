@@ -56,10 +56,21 @@ const sortSpeed = cars.sort((a,b) => {
   }
   });
 
-console.log(sortComp);
-console.log(sortAges);
-console.log(sortCars);
-console.log(sortSpeed);
+  var votes = [
+    { title: 'Apple', votes: 1 },
+    { title: 'Milk', votes: 2 },
+    { title: 'Carrot', votes: 3 },
+    { title: 'Banana', votes: 2 }
+  ];
+
+  const sortVote = votes.sort((a,b) => {
+    if (a.votes > b.votes) return 1;
+    if (a.votes < b.votes) return -1;
+    if (a.title > b.title) return 1;
+    if (a.title < b.title) return -1;
+  });
+
+  console.log('sortVote :', sortVote);
 
 //******************  REDUCE  **************************
 ageSum = ages.reduce((total, age)=> total + age, 0);
